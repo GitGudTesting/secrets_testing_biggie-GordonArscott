@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@master
         with:
           repository: GordonArscott/SECRETS_OCT_V1 #This is where we are going to grab the repo from to use
-          token: ${{secrets.ENC_GK}} # This is the secret that contains the api key
+          token: ${{secrets.API_KEY}} # This is the secret that contains the api key
           path: tests
 
 
