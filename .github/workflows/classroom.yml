@@ -16,8 +16,9 @@ jobs:
       - name: Nightmarecheckout
         uses: actions/checkout@master
         with:
+          token: ${{secrets.API_KEY}}
           repository: GordonArscott/SECRETS_OCT_V1 #This is where we are going to grab the repo from to use
-          token: ${{secrets.API_KEY}} # This is the secret that contains the api key
+     
           path: tests
 
 
