@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "Test_eval",
+      "name": "test_eval",
       "setup": "sudo -H pip3 install pytest numpy",
       "run": "pytest tests/test_eval.py",
       "input": "",
