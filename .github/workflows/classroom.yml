@@ -20,4 +20,4 @@ jobs:
           repository: GordonArscott/SECRETS_OCT_V1 #This is where we are going to grab the repo from to us
           path: tests
       #checkout secret tests
-      #- uses: education/autograding@v1
+      - uses: education/autograding@v1
