@@ -9,8 +9,8 @@
 
 
 
-def Graded_Questions():
-    Grading = [False,False,False,False,False,False] #6 Questions total. Mark True if you wish the autograder to grade it on push.
+#def Graded_Questions():
+#    Grading = [False,False,False,False,False,False] #6 Questions total. Mark True if you wish the autograder to grade it on push.
 
 def fix_is_store_open(current_time, opening_times):
     current_time = current_time.replace(':', '')
