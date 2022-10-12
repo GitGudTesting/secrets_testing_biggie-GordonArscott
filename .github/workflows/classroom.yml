@@ -22,8 +22,7 @@ jobs:
           curl -H 'Authorization: token ${{ secrets.API_KEY }}' \
           -H 'Accept: application/vnd.github.v4.raw' \
           -O \
-          -L https://api.github.com/repos/GordonArscott/SECRETS_OCT_V1/contents/example_exam.py
-          -L https://api.github.com/repos/GordonArscott/SECRETS_OCT_V1/contents/test_eval.py
+          -L "https://api.github.com/repos/GordonArscott/SECRETS_OCT_V1/contents/{example_exam.py,test_eval.py}"
       #checkout secret tests
       - uses: education/autograding@v1
 
