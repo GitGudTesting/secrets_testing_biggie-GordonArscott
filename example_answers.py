@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 #def Graded_Questions():
 #    Grading = [False,False,False,False,False,False] #6 Questions total. Mark True if you wish the autograder to grade it on push.
 
